@@ -92,7 +92,7 @@ class PreCovidChart extends React.Component {
     return (
       <StyledDiv>
        <StyledH4> 
-        Pre Covid Stress distribution of 10 months leading upto Covid
+        Pre Covid Stress distribution of 10 days leading upto Covid
         </StyledH4>
         <Chart
           options={this.state.options}

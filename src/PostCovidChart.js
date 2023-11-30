@@ -88,7 +88,7 @@ class PostCovidChart extends React.Component {
     return (
       <div id="chart">
         <StyledH4>
-          Post Covid Stress distribution of 10 months after Covid
+          Post Covid Stress distribution of 10 days after Covid
         </StyledH4>
         <Chart
           options={this.state.options}
