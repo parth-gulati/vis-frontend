@@ -39,9 +39,9 @@ class PostCovidChart extends React.Component {
         High: "#5FBDFF",
         "Very High": "#7B66FF",
       },
-      colors: Object.values(colorScheme),
+      colors: Object.values(colorScheme).reverse(),
       options: {
-        colors: Object.values(colorScheme),
+        colors: Object.values(colorScheme).reverse(),
         chart: {
           height: 350,
           type: "area",

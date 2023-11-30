@@ -5,6 +5,7 @@ import styled from "styled-components";
 import FilterComponent from "./FilterComponent";
 import PostCovidChart from "./PostCovidChart";
 import PreCovidChart from "./PreCovidChart";
+import DumbbellChart from './DumbbellChart'
 
 const View4 = () => {
   const [selectedFilters, setSelectedFilters] = useState([]);
@@ -151,6 +152,7 @@ const View4 = () => {
       </CovidButton>
       {covidStatus === 'Pre' && <PreCovidChart selectedFilters={selectedFilters}/>}
       {covidStatus === 'Post' && <PostCovidChart selectedFilters={selectedFilters}/>}
+      <DumbbellChart covidStatus={covidStatus}/>
     </Container>
   );
 };
