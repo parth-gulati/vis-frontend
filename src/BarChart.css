@@ -1,0 +1,9 @@
+.selected {
+    fill: #c51b8a; /* Example: Change the fill color of the selected bar */
+    opacity: 1; /* Example: Set full opacity for the selected bar */
+    /* Add any other visual styles to indicate the selected state */
+  }
+
+  .text {
+    margin-left: 40px;
+  }
